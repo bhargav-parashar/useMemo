@@ -19,7 +19,7 @@ PROBLEM
 
 SOLUTION
 
-- To prevent this unnecessary re-rendering from happening, the funcitonis calculateMultipliedCount1 and calculateMultipliedCount2 are memoized using useMemo along with a dependency array of respective props.
+- To prevent this unnecessary re-rendering, the funcitons calculateMultipliedCount1 and calculateMultipliedCount2 are memoized using useMemo along with a dependency array of respective props.
 - Eg :   
   const multipliedCount1 = useMemo(()=>calculateMultipliedCount1(count1),[count1]) ;
   const multipliedCount2 = useMemo(()=>calculateMultipliedCount2(count2),[count2]) ;
